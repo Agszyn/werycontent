@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Verdana;
+  text-shadow: 2px 2px 2px white;
+}
+
+#s1 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.bigbox {
+  grid-area: 1 / 1 / 13 / 13;
+}
+.smallbox {
+  grid-area: 2 / 2 / 12 / 12;
+}
+.main {
+  grid-area: 6 / 3 / 8 / 9;
+}
+.back {
+  grid-area: 9 / 9 / 11 / 11;
+}
