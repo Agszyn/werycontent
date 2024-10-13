@@ -127,6 +127,13 @@ img {
 }
 
 @media (max-width: 530px) {
+  .bigbox {
+    border: none;
+  }
+  .smallbox {
+    border: none;
+  }
+
   .full-image {
     display: none;
     grid-area: unset;
@@ -169,13 +176,6 @@ img {
     grid-area: 6 / 2 / 7 / 3;
   }
 
-  .bigbox {
-    border: solid white 1px;
-  }
-  .smallbox {
-    border: solid white 1px;
-  }
-
   .footer-content {
     margin-right: 1rem;
   }
@@ -197,6 +197,12 @@ img {
     color: transparent;
     text-shadow: 0 0 2px rgba(255, 255, 255, 1);
     text-decoration: none !important;
+  }
+}
+
+@media (max-width: 320px) {
+  h3 {
+    font-size: 18px !important;
   }
 }
 
